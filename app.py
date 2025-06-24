@@ -14,7 +14,7 @@ model.compile(optimizer='adam', loss='binary_crossentropy', metrics=['accuracy']
 with open('label_encoder_gender.pkl', 'rb') as file:
     label_encoder_gender = pickle.load(file)
 
-with open('onehot_encoder_geo.pkl', 'rb') as file:
+with open('Onehot_encoder_geo.pkl', 'rb') as file:
     onehot_encoder_geo = pickle.load(file)
 
 with open('scaler.pkl', 'rb') as file:
